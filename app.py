@@ -9,7 +9,7 @@ st.title("Study Office – Student Risk")
 model = Model("model")
 
 # Load data
-URL = "https://raw.githubusercontent.com/aaubs/business-data-science/main/assignments/study-office/data/"
+URL = "https://raw.githubusercontent.com/aaubs/ds-master/main/assignments/study-office/data/"
 
 new = pd.read_csv(URL + "new_week6.csv")
 history = pd.read_csv(URL + "history_week6.csv")
